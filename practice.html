@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<script src="practice.js"></script>
+</head>
+<body>
+<div class="container">
+	
+	<h1>Practice Activity</h1>
+
+		<div class="form-group">
+		  <label >User Name:</label>
+          <input type="text" id="user_name" class="form-control" placeholder="Write Your User Name">
+		</div>
+
+		<button class="btn btn-success" onclick="addUser()">Add User Name</button>
+        <button class="btn btn-success" onclick="clear()">clear</button>
+</div>
+
+
+
+</body>
+<nav class="navbar_inverse" style="position:sticky;top:0;z-index:99999">
+
+<div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</button>
+	<a class="navbar-brand" href="#">Ingomar Middle School</a>
+</div>
+
+<div class="collapse navbar-collapse" id="myNavbar">
+	<ul class="nav navbar-nav">
+		<li><a href="#campus_life">Campus Life</a></li>
+		<li><a href="#achievements">achievements</a></li>
+		<li><a href="#new">What's New</a></li>
+		<li><a href="#contactUs">Contact Us</a></li>
+	</ul>
+</div>
+
+
+</nav>
+
+<iframe id="video" src="https://www.northallegheny.org/"></iframe>
+
+</html>
